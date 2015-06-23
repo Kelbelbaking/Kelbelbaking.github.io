@@ -1,0 +1,393 @@
+div#banner {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 75px;
+	background-color: rgba(48,206,235,.57);
+}
+
+div#banner-content {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	/*-webkit-text-stroke: .2px rgb(146,235,235);*/
+}
+
+div#banner-content img {
+	position: fixed;
+	float:left;
+	position: relative;
+	left: 110px;
+	vertical-align: middle;
+	bottom: 2px;
+}
+
+ul#nav {
+	padding-top: 70px;
+	margin-left: 12%;
+	margin-right: 8%;
+	/*width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	position:absolute;*/
+
+}
+
+#nav li {
+	display: inline;
+	font-family: "american typewriter";
+	font-size: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+} 
+
+#nav a:link {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav a:visited {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav a:hover {
+	text-decoration: none;
+	color: rgb(100,155,245);
+	/*color: rgb(47,92,34);*/
+	font-size: 21px;
+	font-style: bold;
+
+}
+
+
+h1 {
+	font-family: "american typewriter";
+	font-size: 30px;
+	font-style: bold;
+	color: rgb(48,206,235);
+	margin-left: 10%;
+	margin-top: 3%;
+}
+
+h2 {
+	font-family: "lucida handwriting";
+	font-size: 20px;
+	font-style: bold;
+	color: rgb(105,176,94);
+	margin-left: 10%;
+}
+
+p {
+	font-family: "american typewriter";
+	font-size: 16px;
+	color: rgb(39,39,39);
+	/*margin-left: 110px;*/
+	margin-left: 10%;
+	margin-right: 0;
+	position: relative;
+	width: 475px;
+
+	}
+
+/*start slideshow*/
+
+.slide-viewer {
+	position: relative;
+	overflow: hidden;
+	height: 328px;
+}
+
+.slide-group {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.slide {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+}
+
+.slide:first-child {
+	display: block;
+}
+
+/*end slideshow*/
+
+
+div#kelly {
+	position: relative;
+	float: right;
+	width: 200px;
+	margin-right: 12%;
+	padding-bottom: 0;
+}
+
+
+div#kelly a:link {
+	font-family: "american typewriter";
+	/*float: right;*/
+	font-size: 24px;
+	font-style: bold;
+	color: rgb(206,194,11);
+	text-decoration: none;
+}
+
+div#kelly a:hover {
+	font-size: 20px;
+	text-decoration: underline;
+	font-style: bold;
+	color: rgb(217,113,224);
+}
+
+
+ul#nav-subpages {
+	padding-top: 70px;
+	margin-left: 12%;
+	margin-right: 8%;
+	/*width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+*/}
+
+#nav-subpages li {
+	display: inline;
+	font-family: "american typewriter";
+	font-size: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#nav-subpages a:link {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav-subpages a:visited {
+	text-decoration: none;
+	color: rgb(120,130,133);
+}
+
+#nav-subpages a:hover {
+	text-decoration: none;
+	color: rgb(100,155,245);
+	/*color: rgb(47,92,34);*/
+	font-size: 21px;
+	font-style: bold;
+}
+
+
+#nav-subpages li.active {
+	text-decoration: none;
+	font-family: "american typewriter";
+	font-size: 20px;
+	color: rgb(255,255,255);
+	background-color: rgb(147,155,157);
+}
+
+#nav-subpages li.active a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "american typewriter";
+	color: white;
+	background-color: rgb(147,155,157);
+}
+
+#nav-subpages li.active a:visited {
+	text-decoration: none;
+	font-size: 20px;
+	font-family: "american typewriter";
+	color: white;
+	background-color: rgb(147,155,157);
+}
+
+div#banner-content a:link {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	text-decoration: none;
+	/*-webkit-text-stroke: .2px rgb(146,235,235);*/
+}
+
+div#banner-content a:active {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	text-decoration: none;
+}
+
+div#banner-content a:visited {
+	font-family: "lucida handwriting";
+	font-size: 50px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 2px;
+	text-decoration: none;
+} 
+/*
+ #post1 img {
+ 	position: relative;
+ 	padding-top: 10px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+ #post1 h3 {
+ 	font-family: "american typewriter";
+ 	font-size: 30px;
+ 	font-style: bold;
+ 	position: absolute;
+ 	top: 18%;
+ 	right: 14%;
+ 	color: rgb(84,217,217);
+ }
+
+ #post1 p {
+ 	font-family: "rockwell";
+ 	font-size: 20px;
+ 	position: absolute;
+ 	top: 27%;
+ 	right: 4%;
+ 	width: 35%;
+ 	color: rgb(39,39,39);
+ }*/
+
+/* saul added this on Sun Dec  7 19:15:25 EST 2014 */
+
+.post_new img {
+ 	padding-top: 10px;
+ 	padding-bottom: 60px;
+ 	width:100%;
+ 	height:100%;
+}
+
+.post_new .treat_info {
+	position: absolute;
+	width: 100px;
+}
+
+.post_new .right_treat {
+	right: 325px;
+}
+
+.post_new .left_treat {
+	left: 50px;
+}
+
+.post_new .treat_info h3 {
+	font-family: "american typewriter";
+ 	font-size: 30px;
+ 	font-style: bold;
+ 	color: rgb(84,217,217);
+ 	width: 400px;
+}
+
+.post_new .treat_info p {
+	font-family: "rockwell";
+ 	font-size: 20px;
+ 	color: rgb(39,39,39);
+ 	width: 375px;
+ 	height: 200px;
+ 	overflow-y: scroll;
+}
+
+/* end saul's changes */
+/*
+
+ #post2 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+
+ }
+
+#post3 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post4 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post5 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post6 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post7 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post8 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post9 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post10 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post11 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post12 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }
+
+#post13 img {
+ 	padding-top: 60px;
+ 	width:100%;
+ 	height:100%;
+ }*/
+
+div.slides {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	overflow-x:hidden;
+	padding-bottom: 30px;
+}
+
